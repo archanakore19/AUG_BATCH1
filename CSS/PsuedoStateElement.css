@@ -1,0 +1,112 @@
+.btn{
+    color: white;
+    background-color: green;
+    width: 187px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+
+}
+/* pseudo state-->> Selector/element : pseudo state {property:value}*/
+
+button.btn:hover{
+    background-color: cadetblue;
+    color: red;
+    cursor: pointer;
+}
+
+.submit-btn{
+    color: white;
+    background-color: rgb(240, 114, 56);
+    width: 187px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.main div button.submit-btn:hover{
+    background-color: rgb(5, 62, 63);
+    color: red;
+    cursor:pointer;
+}
+ .container1{
+    color: white;
+    background-color: rgb(240, 114, 56);
+    width: 187px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+} 
+
+div div div.container div button.container1:hover{
+    background-color: rgb(5, 62, 63);
+    color: red;
+    cursor:pointer;
+
+}
+
+input.inputBox1:focus{
+    background-color:red;
+}
+
+input.inputBox2:focus{
+    background-color:aqua;
+}
+
+a:link{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color: blue;
+}
+a:hover{
+    color: pink;
+}
+p.f-line::first-line{
+    color:brown;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.f-letter::first-letter{
+    color:blue;
+    font-size: 30px;
+}
+
+::marker { 
+    color: red;
+    font-size: 23px;
+}
+
+.selection::selection{
+    background-color: yellow;
+}
+input[type='text']{
+    background-color: pink;
+    color:blue
+}
+input[type='passward']{
+    color:brown;
+}
+
+body{
+    background-image: url('backgroundImage.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+
+
+/* Universal Selector */
+/* *{
+    background-color: pink;
+} */
+
+
+
+
