@@ -1,0 +1,57 @@
+p{
+    
+    text-shadow: 2px 2px red;
+    font-size: 40px;
+}
+.box-shadow{
+    border: 2px solid black;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    box-shadow: 20px 20px 2px red;
+
+}
+.text-trans{
+    text-transform: uppercase;
+}
+.text-aline{
+    text-align: center;
+}
+.text-overflow{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    overflow:auto;
+}
+.text-overflow-clip-elipse{
+    border: 2px solid black;
+    height: 20px;
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+.text-overflow-clip-elipse:hover{
+    overflow: visible;
+}
+.word-break{
+    border: 2px solid black;
+    height: 350px;
+    width: 100px;
+    word-break: break-word;
+}
+.word-wrap{
+    border: 2px solid black;
+    height: 350px;
+    width: 100px;
+}
+.opacity{
+    height: 500px;
+    width: 500px;
+    opacity: 0.1;
+}
+.opacity:hover{
+    opacity: 1.0;
+}
